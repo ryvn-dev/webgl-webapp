@@ -1,0 +1,128 @@
+#content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.options {
+    margin: 10 10 10 10; padding: 0;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+div .jumbotron.text-center{
+    margin-bottom: 0%;
+}
+
+
+#blocks{
+    display: flex;
+}
+
+
+
+#canvas {
+    position: relative;
+    margin: 0 auto;
+    width: 1281px;
+    height: 720px;
+}
+
+/** Adbox **/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(50%);
+}
+
+
+
+div .adbox {
+	height: 500px;
+	width: 1281px;
+	margin: 0 auto;
+	position: relative;
+    background-color: #FFFFFF;    
+}
+
+div .verticalbig {
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.border-bottom {
+    width: 100%;
+    margin: 5 auto;
+}
+
+#adbox ul.ulmodel {
+    background-color: #FCE4C1;
+	display: inline-block;
+	width: 1281px;
+	list-style: none;
+	margin: 0 auto;
+    margin-bottom: 20px;
+	/* border-radius: 3px; */
+	padding: 0;
+	position: relative;
+    text-align: center;
+}
+#adbox ul.ulmodel li {
+    background-color: #F1C3B7;
+	/* float: right; */
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+	width: 370px;
+	padding: 19px 10px 19px 10px;
+    border-radius: 10px;
+}
+#adbox ul.ulmodel li p {
+	color: #577E8B;
+	font-size: 20px;
+    font-weight: bold;
+	height: 30px;
+	line-height: 20px;
+	margin: 0;
+}
+
+#adbox ul.ulshader {
+    background-color: #FCE4C1;
+	display: inline-block;
+	width: 1281px;
+	list-style: none;
+	margin: 0 auto;
+    margin-bottom: 20px;
+	/* border-radius: 3px; */
+	padding: 0;
+	position: relative;
+    text-align: center;
+}
+#adbox ul.ulshader li {
+    background-color: #D2E8FD;
+	/* float: right; */
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+	width: 370px;
+	padding: 19px 10px 19px 10px;
+    border-radius: 10px;
+}
+
+#adbox ul.ulshader li p {
+	color: #577E8B;
+	font-size: 20px;
+    font-weight: bold;
+	height: 30px;
+	line-height: 20px;
+	margin: 0;
+}
+
